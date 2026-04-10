@@ -1,2 +1,159 @@
-# Healing-roots-wellness-centre-
-An all around therapy centre for All individuals including autism spectrum, marital issues, 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Healing Roots Wellness Centre</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f7f5;
+      color: #2f3e2f;
+    }
+    header {
+      background: #ffffff;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      max-width: 200px;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #3d7a6b;
+    }
+    nav a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #2f5d50;
+    }
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background: #e6f0ec;
+    }
+    .hero h1 {
+      font-size: 36px;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    footer {
+      background: #2f5d50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    button {
+      background: #c9a34e;
+      border: none;
+      padding: 10px 20px;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="/mnt/data/1000299557.png" alt="Healing Roots Logo">
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#services">Services</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+  <h1>Welcome to Healing Roots Wellness Centre</h1>
+  <p>Your safe space for therapy, counselling & wellness.</p>
+  <button>Book Appointment</button>
+</section>
+
+<section class="section" id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">Psychotherapy</div>
+    <div class="card">Counselling</div>
+    <div class="card">Speech Therapy</div>
+    <div class="card">Occupational Therapy</div>
+    <div class="card">Wellness Programs</div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <h2>About Us</h2>
+  <p>Healing Roots Wellness Centre is dedicated to providing holistic therapy solutions for individuals of all age groups. Our mission is to nurture mental, emotional, and developmental well-being.</p>
+</section>
+
+<section class="section" id="contact">
+  <h2>Contact Us</h2>
+  <p>Email: baijayaroyalsllp@gmail.com</p>
+  <p>Phone: +91 7908925802</p>
+  <p>Location: Baguiati, Kolkata, India</p>
+</section>
+
+<section class="section" id="map">
+  <h2>Find Us</h2>
+  <iframe 
+    src="https://www.google.com/maps?q=Baguiati,Kolkata&output=embed" 
+    width="100%" 
+    height="300" 
+    style="border:0; border-radius:10px;" 
+    allowfullscreen="" 
+    loading="lazy">
+  </iframe>
+  <br><br>
+  <a href="https://www.google.com/maps?q=Baguiati,Kolkata" target="_blank">
+    <button>Get Directions</button>
+  </a>
+</section>
+
+<footer>
+  <p>© 2026 Healing Roots Wellness Centre</p>
+</footer>
+
+<!-- WhatsApp Button -->
+<a href="https://wa.me/917908925802" target="_blank" style="position:fixed;bottom:20px;right:20px;background:#25D366;color:white;padding:12px 16px;border-radius:50px;text-decoration:none;font-weight:bold;box-shadow:0 2px 6px rgba(0,0,0,0.3);">
+  Chat on WhatsApp
+</a>
+
+<!-- Appointment Form -->
+<section class="section" id="appointment">
+  <h2>Book an Appointment</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required style="width:100%;padding:10px;margin:10px 0;">
+    <input type="tel" placeholder="Phone Number" required style="width:100%;padding:10px;margin:10px 0;">
+    <textarea placeholder="Your Concern" required style="width:100%;padding:10px;margin:10px 0;"></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</section>
+
+</body>
+</html>
+
+</body>
+</html>
